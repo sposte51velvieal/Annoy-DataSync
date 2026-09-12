@@ -1,8 +1,8 @@
 ## License
 
-The released datasets are derived from HuggingFaceTB's [`SmolLM-Corpus`](https://huggingface.co/datasets/HuggingFaceTB/smollm-corpus), whose `python-edu` subset is built from source code in [`The Stack v2`](https://huggingface.co/datasets/bigcode/the-stack-v2-train-full-ids).
+The released datasets are derived from the following direct sources, and we use the license information declared by those sources rather than introducing a new license:
 
-- `Annoy-PyEdu-Rs-Raw`: the raw processed subset is released under the [`ODC-By`](https://www.opendata.org/licenses/odc-by/1.0/) license, consistent with SmolLM-Corpus.
-- `Annoy-PyEdu-Rs`: the processed/transformed dataset is also released under [`ODC-By`](https://www.opendata.org/licenses/odc-by/1.0/).
+- `Annoy-PyEdu-Rs-Raw` is adopted from HuggingFaceTB's [`SmolLM-Corpus`](https://huggingface.co/datasets/HuggingFaceTB/smollm-corpus), whose dataset card declares [`license: odc-by`](https://huggingface.co/datasets/HuggingFaceTB/smollm-corpus).
+- `Annoy-PyEdu-Rs` is synthesized from `Annoy-PyEdu-Rs-Raw` using [`DeepSeek-V2.5`](https://huggingface.co/deepseek-ai/DeepSeek-V2.5), whose model card declares [`license: other`](https://huggingface.co/deepseek-ai/DeepSeek-V2.5) with [`license_name: deepseek`](https://github.com/deepseek-ai/DeepSeek-V2/blob/main/LICENSE-MODEL).
 
-Important: because the source code data includes repositories with various original licenses, downstream users should also consult The Stack v2 provenance/licensing information before redistributing or commercially using individual source-code-derived samples.
+Important: because the raw source code also originates from [`The Stack v2`](https://huggingface.co/datasets/bigcode/the-stack-v2-train-full-ids), downstream users should also consult its provenance and license information before redistributing or commercially using individual source-code-derived samples.
